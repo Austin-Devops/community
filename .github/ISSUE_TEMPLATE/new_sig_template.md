@@ -21,11 +21,11 @@ _Complete the following checklist, indicating completion by ticking the task box
               └── README.md     
       ```
       - [ ] `README.md` created from `SIG` `README.md` [template](./README_TEMPLATE/sig_readme_template.md)
-      - [ ] `OWNERS` is a yaml file with a single `organizers` that has a value of a list of SIG organizers. These are the people that will have write access to this SIG's documentation
+      - [ ] `OWNERS` is a yaml file with a single `organizers` that has a value of a list of SIG organizers. These are the people that will have write access to this SIG's documentation. **NOTE**: All writes to the SIG directory require an approved review from an organizer. **YOU CANNOT REVIEW YOUR OWN CODE**. This means that you'll need _at least_ two organizers per SIG.
 
         ```
         organizers:
-          - < ORGANIZER HANDLE > # at least one
+          - < ORGANIZER HANDLE > # at least two
         ```
 
 - [ ] Open a new Pull Request from the new `sig-<NEW SIG NAME>` branch against the `master` branch. `@sig-admin` will automatically be added as a reviewer.
