@@ -33,11 +33,14 @@ _Complete the following checklist, indicating completion by ticking the task box
 #### Finalization
 Once the Pull Request has been approved, a member of `@sig-admin` will complete the following:
 - [ ] add SIG to the [SIG Master List](../../sigs/sig-master-list.md)
-- [ ] create new `@Austin-Devops/sig-<SIG NAME>` team, populated with the listed SIG organizers *
-- [ ] add `@Austin-Devops/sig-<SIG NAME>-organizers` team as a [Code Owner](../CODEOWNERS) for `/sig/<SIG NAME>/` *
+- [ ] create new `@Austin-Devops/sig/sig-<SIG NAME>-organizers` team, populated with the listed SIG organizers       **
+   * ensure all organizers are maintainers of this group
+- [ ] create new `@Austin-Devops/sig/sig-<SIG NAME>` team, initially populated with the listed SIG organizers        **
+   * ensure all organizers are maintainers of this group
+- [ ] add `@Austin-Devops/sig-<SIG NAME>-organizers` team as a [Code Owner](../CODEOWNERS) for `/sig/<SIG NAME>/`    **
 - [ ] merge PR to `master`
 
 
-\* _Currently, a repository can only have a single CODEOWNERS file, so these steps must be completed by an admin of this repo. This is okay for the time being, but we need to open an issue to let to find a way to let `sig-admin`s modify the CODEOWNERS file for any directory under /sig/_
+\** _Currently, a repository can only have a single CODEOWNERS file, so these steps must be completed by an admin of this repo. This is okay for the time being, but we need to open an issue to let to find a way to let `sig-admin`s modify the CODEOWNERS file for any directory under /sig/_
 ___
 /cc @sig-admin
