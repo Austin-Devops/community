@@ -1,8 +1,10 @@
 # SRE
 ___
-## Description
 
+## Description
+![tif](./static/tif.jpeg)
 ## Schedule
+**6 - 6:30 PM CST** second Monday of every month (during the meet & greet portions of the main [austin devops](https://www.meetup.com/austin-devops/) meetup)
 
 ## Contact
 #### Chat
