@@ -1,10 +1,11 @@
 # SRE
+### _site reliability engineering_
 ___
 
 ## Description
 ![tif](./static/tif.jpeg)
 ## Schedule
-**6 - 6:30 PM CST** second Monday of every month (during the meet & greet portions of the main [austin devops](https://www.meetup.com/austin-devops/) meetup)
+**6 - 6:30 PM CST** second Monday of every month (during the meet & greet portion of the main [austin devops](https://www.meetup.com/austin-devops/) meetup)
 
 ## Contact
 #### Chat
